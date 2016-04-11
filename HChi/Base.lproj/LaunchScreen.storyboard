@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@2016 - 2046 HChi .All Rights Reserved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yj9-4y-Uai">
+                                <rect key="frame" x="46" y="533" width="229" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kja-te-T9b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HChi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKo-ap-HvA">
+                                <rect key="frame" x="104" y="504" width="112" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Mmf-cE-FoF"/>
+                                    <constraint firstAttribute="width" constant="112" id="oPe-fg-wOQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homePage" translatesAutoresizingMaskIntoConstraints="NO" id="RaY-wN-YdF">
+                                <rect key="frame" x="70" y="20" width="230" height="361"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RaY-wN-YdF" secondAttribute="trailing" constant="20" id="5D5-fG-JHh"/>
+                            <constraint firstItem="Yj9-4y-Uai" firstAttribute="top" secondItem="MKo-ap-HvA" secondAttribute="bottom" constant="8" id="Edm-p6-CJy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Yj9-4y-Uai" secondAttribute="bottom" constant="14" id="GYO-AA-NK9"/>
+                            <constraint firstItem="RaY-wN-YdF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="KmU-BG-bzT"/>
+                            <constraint firstItem="Yj9-4y-Uai" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="30" id="OnZ-Ek-ZlC"/>
+                            <constraint firstItem="Yj9-4y-Uai" firstAttribute="centerX" secondItem="MKo-ap-HvA" secondAttribute="centerX" id="QOM-Un-Kmd"/>
+                            <constraint firstItem="RaY-wN-YdF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="70" id="TH9-S7-rVR"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RaY-wN-YdF" secondAttribute="bottom" constant="187" id="eh4-Mh-L2E"/>
+                            <constraint firstItem="MKo-ap-HvA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="i4i-TH-HMy"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homePage" width="450" height="706"/>
+    </resources>
+</document>

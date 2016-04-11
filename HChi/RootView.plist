@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>麻婆豆腐</string>
+			<key>other</key>
+			<string>2,455,468 浏览  ·  20,045 收藏  ·  1257 做过 </string>
+			<key>image</key>
+			<string>rootview_cai_01</string>
+			<key>userID</key>
+			<string>菩提老组</string>
+			<key>userImage</key>
+			<string>userImage</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>酸菜鱼</string>
+			<key>other</key>
+			<string>860,797 浏览  ·  9,949 收藏  ·  364 做过 </string>
+			<key>image</key>
+			<string>rootview_cai_02</string>
+			<key>userID</key>
+			<string>菩提老组</string>
+			<key>userImage</key>
+			<string>userImage</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>虾皮鸡蛋羹</string>
+			<key>other</key>
+			<string>952,888 浏览  ·  13,126 收藏  ·  574 做过 </string>
+			<key>image</key>
+			<string>rootview_cai_03</string>
+			<key>userID</key>
+			<string>菩提老组</string>
+			<key>userImage</key>
+			<string>userImage</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>皮蛋拌豆腐</string>
+			<key>other</key>
+			<string>1,247,622浏览  ·  24,126 收藏  ·  51,253 做过 </string>
+			<key>image</key>
+			<string>rootview_cai_04</string>
+			<key>userID</key>
+			<string>菩提老组</string>
+			<key>userImage</key>
+			<string>userImage</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>红烧茄子</string>
+			<key>other</key>
+			<string>4,099,706 浏览  ·  43,252 收藏  ·  123,544 做过 </string>
+			<key>image</key>
+			<string>rootview_cai_05</string>
+			<key>userID</key>
+			<string>菩提老组</string>
+			<key>userImage</key>
+			<string>userImage</string>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChangeInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bnc-o5-UMV">
+                    <rect key="frame" x="8" y="55" width="359" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="E4a-1B-dPY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fc5-nc-3Mi">
+                    <rect key="frame" x="8" y="7" width="359" height="131"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Bnc-o5-UMV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="9eW-Ug-VD7"/>
+                <constraint firstItem="fc5-nc-3Mi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="D8W-vU-hq1"/>
+                <constraint firstItem="Bnc-o5-UMV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="KZm-mr-hGD"/>
+                <constraint firstAttribute="trailing" secondItem="Bnc-o5-UMV" secondAttribute="trailing" constant="8" id="WGd-19-loc"/>
+                <constraint firstItem="Bnc-o5-UMV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="blt-Ou-T3Z"/>
+                <constraint firstItem="Bnc-o5-UMV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="d3V-s2-gOX"/>
+                <constraint firstItem="fc5-nc-3Mi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="doL-kc-V1I"/>
+                <constraint firstAttribute="bottom" secondItem="fc5-nc-3Mi" secondAttribute="bottom" constant="13" id="kS2-fJ-NFr"/>
+                <constraint firstAttribute="trailing" secondItem="fc5-nc-3Mi" secondAttribute="trailing" constant="8" id="oHN-JM-cVb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="9eW-Ug-VD7"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="textField" destination="Bnc-o5-UMV" id="JgN-x2-yGW"/>
+                <outlet property="textView" destination="fc5-nc-3Mi" id="jBn-YB-lGn"/>
+            </connections>
+            <point key="canvasLocation" x="262.5" y="264.5"/>
+        </view>
+    </objects>
+</document>

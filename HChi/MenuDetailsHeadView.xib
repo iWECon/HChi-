@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="caomei" translatesAutoresizingMaskIntoConstraints="NO" id="Lv6-FR-jya">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="375" id="Nth-8y-Rg4"/>
+                        <constraint firstAttribute="height" constant="220" id="yb7-ZQ-r4o"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="养生必读" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BO1-tn-pXI">
+                    <rect key="frame" x="8" y="230" width="68" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Ql7-76-gMW"/>
+                        <constraint firstAttribute="width" constant="68" id="iAn-Ri-2Pw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Lv6-FR-jya" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ADC-za-Qwn"/>
+                <constraint firstAttribute="trailing" secondItem="Lv6-FR-jya" secondAttribute="trailing" id="IbZ-x6-hOC"/>
+                <constraint firstItem="BO1-tn-pXI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Jgo-db-SNS"/>
+                <constraint firstItem="Lv6-FR-jya" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LAu-uW-mux"/>
+                <constraint firstItem="BO1-tn-pXI" firstAttribute="top" secondItem="Lv6-FR-jya" secondAttribute="bottom" constant="10" id="Xc2-uY-JeI"/>
+                <constraint firstAttribute="bottom" secondItem="BO1-tn-pXI" secondAttribute="bottom" constant="8" id="p8M-5c-3is"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="p8M-5c-3is"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="519.5" y="264"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="caomei" width="900" height="600"/>
+    </resources>
+</document>

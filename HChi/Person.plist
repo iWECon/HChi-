@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>个人设置</string>
+			<key>subTitle</key>
+			<string></string>
+			<key>iconName</key>
+			<string>Persong_Setting</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>上传菜谱</string>
+			<key>subTitle</key>
+			<string></string>
+			<key>iconName</key>
+			<string>Peroson_UPMenu</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>上传作品</string>
+			<key>subTitle</key>
+			<string></string>
+			<key>iconName</key>
+			<string>Person_UPProduct</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我的收藏</string>
+			<key>subTitle</key>
+			<string></string>
+			<key>iconName</key>
+			<string>Person_Collection</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>退出</string>
+			<key>subTitle</key>
+			<string></string>
+		</dict>
+	</array>
+</array>
+</plist>

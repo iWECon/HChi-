@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>叉烧酱排骨</string>
+			<key>image</key>
+			<string>menu_list_chashaojiangpaigu</string>
+			<key>time</key>
+			<string>10-30 分钟</string>
+			<key>ing</key>
+			<string>排骨、料酒、叉烧酱、蜂蜜、油、水、蒜蓉、姜片、葱头</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>葱油鸡</string>
+			<key>image</key>
+			<string>menu_list_congyouji</string>
+			<key>time</key>
+			<string>1 小时以上</string>
+			<key>ing</key>
+			<string>草鸡、香葱、味极鲜酱油、玉米油、烟、姜片</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>杭椒牛柳</string>
+			<key>image</key>
+			<string>menu_list_hangjiaoniuliu</string>
+			<key>time</key>
+			<string>10-30分钟</string>
+			<key>ing</key>
+			<string>带鱼、料酒、生抽、老抽、陈醋、八角、葱、姜、蒜、糖、盐</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>面筋塞肉</string>
+			<key>image</key>
+			<string>menu_list_mianjinsairou</string>
+			<key>time</key>
+			<string>30-60 分钟</string>
+			<key>ing</key>
+			<string>碎肉、葱、酱油、冰糖、盐、白砂糖、胡萝卜、香菇</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>红烧带鱼</string>
+			<key>image</key>
+			<string>menu_list_hongshaodaiyu</string>
+			<key>time</key>
+			<string>10-30分钟</string>
+			<key>ing</key>
+			<string>带鱼、料酒、生抽、老抽、陈醋、八角、葱、姜、蒜、糖、盐</string>
+		</dict>
+	</array>
+</array>
+</plist>
